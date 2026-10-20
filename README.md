@@ -33,7 +33,16 @@ The brand lists cover Samsung, Xiaomi / Redmi / POCO, Realme / Oppo / OnePlus, V
 
 You need [Claude Code](https://claude.com/claude-code).
 
-**As a plugin (recommended):**
+**Recommended: scan it with [GuardSkills](https://guardskills.felixondesk.chatgpt.site/) first.** This skill runs ADB commands on your phone, so check what you're installing. GuardSkills scans the skill, gives it a risk verdict, and installs it only if it passes:
+```
+npx guardskills skills add felixondesk/android-debloat-skill --skill android-debloat
+```
+Preview the verdict without installing:
+```
+npx guardskills add felixondesk/android-debloat-skill --skill android-debloat --dry-run
+```
+
+**As a Claude Code plugin:**
 ```
 /plugin marketplace add felixondesk/android-debloat-skill
 /plugin install android-debloat@android-debloat-skill
