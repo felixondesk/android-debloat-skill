@@ -1,0 +1,9 @@
+{
+  "name": "android-debloat",
+  "description": "Hand-holds non-technical people through removing Android bloatware from a laptop with ADB. No root, and every app can be restored.",
+  "version": "1.0.0",
+  "author": { "name": "felixondesk" },
+  "homepage": "https://github.com/felixondesk/android-debloat-skill",
+  "license": "MIT",
+  "keywords": ["android", "adb", "debloat", "bloatware", "samsung", "xiaomi"]
+}

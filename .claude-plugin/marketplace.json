@@ -1,0 +1,11 @@
+{
+  "name": "android-debloat-skill",
+  "owner": { "name": "felixondesk" },
+  "plugins": [
+    {
+      "name": "android-debloat",
+      "source": "./",
+      "description": "Hand-holds non-technical people through removing Android bloatware from a laptop with ADB. No root, and every app can be restored."
+    }
+  ]
+}
